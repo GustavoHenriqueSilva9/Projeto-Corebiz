@@ -1,63 +1,86 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Corebiz</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-        crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <title>Corebiz</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css"></head>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css">
 
-
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <!--Fonte-->
 </head>
 
 <body>
+
+  <header>
     <nav class="navbar navbar-expand-lg">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+        aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+      <a class="navbar-brand" href="#"><img src="assets/logo.png" alt=""></a>
 
-        <a class="navbar-brand" href="#"><img src="assets/logo.png" alt=""></a>
+      <form class="form-inline d-flex justify-content-center">
+        <input class="form-control form-control-sm mr-3 w-75" type="text" placeholder="O que está procurando"
+          aria-label="Search">
+        <i class="fas fa-search" aria-hidden="true"></i>
+      </form>
+      <!--Barra de pesquisa-->
 
-        <form class="form-inline d-flex justify-content-center">
-            <input class="form-control form-control-sm mr-3 w-75" type="text" placeholder="O que está procurando"
-              aria-label="Search">
-            <i class="fas fa-search" aria-hidden="true"></i>
-          </form><!--Barra de pesquisa-->
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
 
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav">
 
-          <ul class="navbar-nav">
+          <!--Minha conta-->
+          <li class="nav-item">
+            <a class="nav-link colorIconBlack" href="#">
+              <i class="far fa-user"></i> Minha Conta</a>
+          </li>
 
-            <li class="nav-item"><!--Minha conta-->
-              <a class="nav-link" href="#">
-                <i class="far fa-user"></i> Minha Conta</a>
-            </li>
+          <!--Carrinho-->
+          <li class="nav-item">
+            <a class="nav-link mt-1" href="#">
+              <i class="fas fa-cart-plus colorIconBlack"></i>
+            </a>
+          </li>
 
-            <li class="nav-item"> <!--Carrinho-->
-              <a class="nav-link mt-1" href="#">
-                <i class="fas fa-cart-plus"></i>
-                </a>
-            </li>
+        </ul>
 
-          </ul>
+      </div>
+    </nav>
+  </header>
 
-        </div>
-      </nav>
-    
-    
-                    
+  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" class="banners">
+
+    <div class="carousel-inner">
+
+      <div class="carousel-item active">
+        <img class="d-block d-md-none d-sm-none d-none d-lg-block d-xl-block float-left position-absolute" style="width: 55%;" src="assets/banner.png" alt="Primeiro Slide">
+        <img class="d-block float-right" src="assets/banner1.png" alt="Primeiro Slide">
+      </div>
+
+    </div>
+
+  <footer>
+    <!--Rodape-->
+  </footer>
+
+
 </body>
 
 </html>

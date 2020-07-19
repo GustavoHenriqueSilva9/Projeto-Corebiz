@@ -1,14 +1,38 @@
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
 .navbar .form-inline input{
     border: none;
     box-shadow: 0 1px 0 0 #000000;
 }
+
 .navbar{
     height: 80px;
     background-color: #ffffff;
 }
+
 .navbar-brand{
     padding-left: 341px;
 }
+
 .form-inline{
     width: 718px;
+}
+
+.text-banner{
+    width: 522px;
+    height: 147px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+.colorIconBlack {
+    color: black;
+}
+.banner{
+    display: flex;
+    flex-direction:row;
 }
