@@ -30,6 +30,7 @@ body{
 
 #maisVendidos{
     margin-left: 341px;
+    font-style: bolder;
 }
 .text-banner{
     position: absolute;
@@ -39,6 +40,19 @@ body{
 .card{
     border: none!important;
 }
+.jumbotron{
+    height: 146px;
+    padding-bottom:10% ;
+}
+.formNews{
+    margin-left: 0.5%;
+}
+.inputForm{
+    border-radius: 4px;
+    border: none;
+    width: 40%;
+}
+
 @media all and (max-width:767px){
     #banner2{
         width: 100%!important;
