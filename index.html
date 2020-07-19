@@ -35,12 +35,12 @@
 
       <a class="navbar-brand" href="#"><img src="assets/logo.png" alt=""></a>
 
+      <!--Barra de pesquisa-->
       <form class="form-inline d-flex justify-content-center">
         <input class="form-control form-control-sm mr-3 w-75" type="text" placeholder="O que está procurando"
           aria-label="Search">
         <i class="fas fa-search" aria-hidden="true"></i>
       </form>
-      <!--Barra de pesquisa-->
 
       <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
 
@@ -58,27 +58,64 @@
               <i class="fas fa-cart-plus colorIconBlack"></i>
             </a>
           </li>
-
         </ul>
-
       </div>
     </nav>
+
   </header>
 
   <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" class="banners">
 
     <div class="carousel-inner">
-
       <div class="carousel-item active">
-        <img class="d-block d-md-none d-sm-none d-none d-lg-block d-xl-block float-left position-absolute" style="width: 55%;" src="assets/banner.png" alt="Primeiro Slide">
-        <img class="d-block float-right" src="assets/banner1.png" alt="Primeiro Slide">
+        <!-- Imagem do banner 'preto'-->
+        <img class="d-md-block d-sm-none d-none d-lg-block d-xl-block float-left position-absolute" style="width: 55%;"
+          src="assets/banner.png" alt="Primeiro Slide">
+          <p class="text-banner">Olá, o que você está buscando?<br>
+          Criar ou migrar seu<br>
+          e-commerce?</p>
+        <!--Imagem do banner 'imagem'-->
+        <img class="d-block float-right w-50" id="banner2" src="assets/banner1.png" alt="Primeiro Slide ">
       </div>
-
     </div>
 
-  <footer>
+    <h5 class="mt-2 " id="maisVendidos">Mais vendidos</h5>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 card" style="width: 18rem;">
+          <img class="card-img-top" src="assets/sapato.png" alt="Imagem de capa do card">
+          <div class="card-body">
+            <p class="card-text">SAPATO FLOATER PRETO</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 card" style="width: 18rem;">
+          <img class="card-img-top" src="assets/chinela.png" alt="Imagem de capa do card">
+          <div class="card-body">
+            <p class="card-text">SANDÁLIA LINHO BROWN</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 card" style="width: 18rem;">
+          <img class="card-img-top" src="assets/bota.png" alt="Imagem de capa do card">
+          <div class="card-body">
+            <p class="card-text">BOTA MUSTANG PRETO</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 card" style="width: 18rem;">
+          <img class="card-img-top" src="assets/cinto.png" alt="Imagem de capa do card">
+          <div class="card-body">
+            <p class="card-text">CINTO SEMICROMO PRETO 40MM</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!--Rodape-->
-  </footer>
+    <footer>
+    </footer>
 
 
 </body>
