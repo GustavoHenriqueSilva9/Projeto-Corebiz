@@ -79,3 +79,12 @@ body{
     margin: auto;
 }
 
+.footer-corebiz{
+    float: left;
+    margin-right: 32px;
+    margin-left: 55%;
+}
+
+.logo-footer{
+    right: 0;
+}
